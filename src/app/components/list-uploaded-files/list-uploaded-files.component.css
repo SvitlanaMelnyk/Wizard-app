@@ -1,0 +1,10 @@
+.div-files {
+  position: relative;
+  top: 5em;
+}
+
+@media screen and (max-width: 600px) {
+  .div-files {
+    top: 2em;
+  }
+}

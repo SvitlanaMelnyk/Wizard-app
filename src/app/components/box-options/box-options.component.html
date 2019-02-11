@@ -1,0 +1,27 @@
+<div class="div-boxes">
+  <div class="row">
+    <div class="col-12">
+      <h1>Second step</h1>
+      <p class="mt-4 mt-md-5">Choose any box.</p>
+    </div>
+  </div>
+  <div class="row mt-3 mt-md-5">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let box of boxes; let i = index">
+      <div class="card text-center" (click)="onBoxClick(i+1)" [ngClass]="{selected: selectedBoxIndex === i+1}">
+        <div class="card-body">
+          <h3 class="name-box">{{ box.name }}</h3>
+          <p class="text-box">{{ box.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3 mt-md-5">
+    <div class="col-12">
+      <p class="blockquote-footer">You cannot proceed to the next step if you have not selected any fields.</p>
+      <button type="button" class="btn my-3 my-md-5" routerLinkActive="active" routerLink="/form" [disabled]="selectedBoxIndex ? false : true">Continue</button>
+    </div>
+  </div>
+</div>
+
+
+

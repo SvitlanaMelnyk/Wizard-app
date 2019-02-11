@@ -1,0 +1,10 @@
+.div-form {
+  position: relative;
+  top: 5em;
+}
+
+@media screen and (max-width: 600px) {
+  .div-form {
+    top: 2em;
+  }
+}

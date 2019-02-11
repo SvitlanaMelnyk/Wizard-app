@@ -1,0 +1,48 @@
+.div-boxes {
+  position: relative;
+  top: 5em;
+}
+
+.card {
+  height: 160px;
+  color: darkslategray;
+  background-color: #EDFB81;
+  border-color: #FA7268;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.selected {
+  color: white;
+  background-color: #FA7268;
+}
+
+.name-box {
+  color: #FA7268;
+}
+
+.selected .name-box {
+  color: white!important;
+}
+
+.text-box {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .div-boxes {
+    top: 2em;
+  }
+
+  .card {
+    height: unset;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .text-box {
+    display: none;
+  }
+}

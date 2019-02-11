@@ -1,0 +1,6 @@
+.container {
+  height: 100%;
+  color: white;
+  background: linear-gradient(to bottom right, #FA7268, #EDFB81);
+  overflow-y: auto;
+}

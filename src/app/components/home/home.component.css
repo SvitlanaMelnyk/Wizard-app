@@ -1,0 +1,22 @@
+.div-home {
+  position: relative;
+  top: 15rem;
+}
+
+.text-home {
+  font-size: 30px;
+}
+
+.btn-home {
+  margin: 7rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .div-home {
+    top: 5em;
+  }
+
+  .btn-home {
+    margin: 5rem 0;
+  }
+}

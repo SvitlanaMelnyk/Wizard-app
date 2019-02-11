@@ -1,0 +1,14 @@
+.modal-content {
+  color: darkslategray;
+  background-color: #EDFB81;
+  border-color: #FA7268;
+  border-radius: 15px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #FA7268;
+}
+
+.modal-footer {
+  border-top: 1px solid #FA7268;
+}
